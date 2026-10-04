@@ -7,7 +7,13 @@ authors = [
     { name = "FAIZAN KHAN", email = "202166657+faizanuddinkhan7@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastapi>=0.142.2",
+    "fastapi-users[sqlalchemy]>=15.0.5",
+    "imagekitio>=5.10.0",
+    "python-dotenv>=1.2.4",
+    "uvicorn[standard]>=0.54.0",
+]
 
 [project.scripts]
 simple-social-media-for-cat-content = "simple_social_media_for_cat_content:main"
